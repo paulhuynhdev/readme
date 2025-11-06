@@ -20,19 +20,19 @@ Read Me is a Child Education Web UI Kit for building engaging, accessible websit
 
 ## Getting Started
 
-1) Install dependencies
+1. Install dependencies
 
 ```bash
 npm install
 ```
 
-2) Install Tailwind v4 (if not already present)
+2. Install Tailwind v4 (if not already present)
 
 ```bash
 npm install tailwindcss @tailwindcss/vite
 ```
 
-3) Configure Vite plugin
+3. Configure Vite plugin
 
 ```ts
 // vite.config.ts
@@ -45,26 +45,26 @@ export default defineConfig({
 })
 ```
 
-4) Import Tailwind CSS
+4. Import Tailwind CSS
 
 ```css
 /* src/index.css */
-@import "tailwindcss";
+@import 'tailwindcss';
 ```
 
-5) Run the app
+5. Run the app
 
 ```bash
 npm run dev
 ```
 
-6) Build for production
+6. Build for production
 
 ```bash
 npm run build
 ```
 
-7) Preview production build
+7. Preview production build
 
 ```bash
 npm run preview

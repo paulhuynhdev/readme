@@ -1,8 +1,10 @@
 @theme {
-  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-    "Apple Color Emoji", "Segoe UI Emoji";
-  --font-heading: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-    "Apple Color Emoji", "Segoe UI Emoji";
+  --font-sans:
+    'Plus Jakarta Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    'Apple Color Emoji', 'Segoe UI Emoji';
+  --font-heading:
+    'Space Grotesk', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    'Apple Color Emoji', 'Segoe UI Emoji';
 
   --spacing-1: 4px;
   --spacing-2: 8px;
@@ -32,28 +34,28 @@
 
   --color-white: #ffffff;
   --color-black: #101828;
-  --color-neutral-25: #FCFCFD;
-  --color-neutral-50: #F9FAFB;
-  --color-neutral-100: #F2F4F7;
-  --color-neutral-200: #EAECF0;
-  --color-neutral-300: #D0D5DD;
-  --color-neutral-400: #98A2B3;
+  --color-neutral-25: #fcfcfd;
+  --color-neutral-50: #f9fafb;
+  --color-neutral-100: #f2f4f7;
+  --color-neutral-200: #eaecf0;
+  --color-neutral-300: #d0d5dd;
+  --color-neutral-400: #98a2b3;
   --color-neutral-500: #667085;
   --color-neutral-600: #475467;
   --color-neutral-700: #344054;
-  --color-neutral-800: #1D2939;
+  --color-neutral-800: #1d2939;
   --color-neutral-900: #101828;
 
-  --color-primary: #3A0CA3;
+  --color-primary: #3a0ca3;
   --color-primary-foreground: #ffffff;
 
-  --color-secondary: #F6D162;
+  --color-secondary: #f6d162;
   --color-secondary-foreground: #101828;
 
-  --color-accent: #00C9B7;
-  --color-danger: #FF5E54;
-  --color-warning: #F2C855;
-  --color-info: #00C9B7;
+  --color-accent: #00c9b7;
+  --color-danger: #ff5e54;
+  --color-warning: #f2c855;
+  --color-info: #00c9b7;
 
   --surface-bg: var(--color-neutral-25);
   --text-body: var(--color-neutral-900);

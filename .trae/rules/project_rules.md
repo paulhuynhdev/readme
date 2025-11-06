@@ -1,4 +1,4 @@
-# Atomic Design — User Rules
+# User Coding Standards
 
 ## Layers and Roles
 
@@ -48,3 +48,9 @@
 - Do compose from lower to higher layers; do not import upwards.
 - Do keep components focused; do not mix data fetching into UI layers below pages.
 - Do use descriptive names; do not use generic or misleading names.
+
+## Syntax and Formatting
+
+- Use the "function" keyword for pure functions.
+- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements.
+- Use declarative JSX.
