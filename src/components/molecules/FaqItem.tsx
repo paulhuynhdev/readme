@@ -7,7 +7,7 @@ interface FaqItemProps {
 
 export default function FaqItem({ question, answer, isOpen, onToggle }: FaqItemProps) {
   return (
-    <div className={`flex flex-col gap-5 pb-8 ${isOpen ? '' : 'border-b border-neutral-400'}`}>
+    <div className='flex flex-col gap-2 border-b border-neutral-400 pb-8'>
       <button
         type='button'
         onClick={onToggle}
@@ -18,31 +18,17 @@ export default function FaqItem({ question, answer, isOpen, onToggle }: FaqItemP
         <span className='text-neutral-900 text-[20px] group-focus-visible:underline'>
           {question}
         </span>
-        <span
-          className='inline-flex items-center justify-center w-7 h-7 rounded-full bg-white'
-          aria-hidden='true'
-        >
-          <svg
-            width='18'
-            height='18'
-            viewBox='0 0 24 24'
-            fill='none'
-            xmlns='http://www.w3.org/2000/svg'
+        <span className='inline-flex items-center justify-center w-7 h-7' aria-hidden='true'>
+          <img
+            src='/icons/arrow-circle-down.svg'
+            alt=''
             className={isOpen ? 'rotate-180 transition-transform' : 'transition-transform'}
-          >
-            <path
-              d='M6 9l6 6 6-6'
-              stroke='currentColor'
-              strokeWidth='2'
-              strokeLinecap='round'
-              strokeLinejoin='round'
-            />
-          </svg>
+          />
         </span>
       </button>
 
       {isOpen && (
-        <div id={question} className='flex flex-col gap-5'>
+        <div id={question}>
           <p className='text-neutral-600 text-base'>{answer}</p>
         </div>
       )}

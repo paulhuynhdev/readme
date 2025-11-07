@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className='bg-[#F6D162] text-[#101828]'>
+      <div className='bg-secondary text-secondary-foreground'>
         <div className='max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-6'>
           <div className='flex items-center gap-2'>
             <span className='text-sm'>© 2025 READ ME. All rights reserved</span>

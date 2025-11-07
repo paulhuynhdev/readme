@@ -72,4 +72,3 @@
 - text-neutral-900 → var(--color-neutral-900)
 - border-neutral-200 → var(--color-neutral-200)
 - placeholder-neutral-400 → var(--color-neutral-400)
-- If a utility doesn’t exist for a custom token, use bg-[var(--color-your-token)] or text-[var(--color-your-token)]

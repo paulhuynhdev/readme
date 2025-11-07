@@ -52,10 +52,17 @@
   --color-secondary: #f6d162;
   --color-secondary-foreground: #101828;
 
+  --color-tertiary: #f6d162;
+  --color-tertiary-foreground: #101828;
+
   --color-accent: #00c9b7;
   --color-danger: #ff5e54;
   --color-warning: #f2c855;
   --color-info: #00c9b7;
+
+  --color-figma-black: #262626;
+  --color-gray-600-alt: #474967;
+  --color-paragraph-alt: #968da6;
 
   --surface-bg: var(--color-neutral-25);
   --text-body: var(--color-neutral-900);
