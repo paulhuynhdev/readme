@@ -25,9 +25,12 @@ export default function RouterNavMenu() {
       <a href='#' className={`${base} ${inactive}`}>
         Teachers
       </a>
-      <a href='#' className={`${base} ${inactive}`}>
+      <NavLink
+        to='/contact'
+        className={({ isActive }) => `${base} ${isActive ? active : inactive}`}
+      >
         Contact us
-      </a>
+      </NavLink>
     </nav>
   )
 }
