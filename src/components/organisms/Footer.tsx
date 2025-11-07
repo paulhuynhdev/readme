@@ -1,10 +1,10 @@
-import Logo from '../atoms/Logo'
-import Button from '../atoms/Button'
-import SocialIcon from '../atoms/SocialIcon'
+import Logo from '@atoms/Logo'
+import Button from '@atoms/Button'
+import SocialIcon from '@atoms/SocialIcon'
 
 export default function Footer() {
   return (
-    <footer className='bg-[#3A0CA3] text-white'>
+    <footer className='bg-primary text-white'>
       <div className='max-w-7xl mx-auto px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-12'>
         <div className='flex flex-col gap-6'>
           <Logo />

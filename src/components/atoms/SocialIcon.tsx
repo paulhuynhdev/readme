@@ -31,8 +31,8 @@ export default function SocialIcon({
   color = 'purple',
 }: SocialIconProps) {
   const base =
-    'w-8 h-8 rounded-md bg-[#F6D162] flex items-center justify-center shadow-sm hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-white/50'
-  const iconColor = color === 'white' ? 'text-white' : 'text-[#3A0CA3]'
+    'w-8 h-8 rounded-md bg-secondary flex items-center justify-center shadow-sm hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-white/50'
+  const iconColor = color === 'white' ? 'text-white' : 'text-primary'
   return (
     <a href={href} aria-label={label} className={`${base} ${iconColor} ${className}`}>
       <svg width='16' height='16' viewBox='0 0 24 24' fill='currentColor' aria-hidden='true'>

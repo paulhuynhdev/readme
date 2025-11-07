@@ -54,3 +54,22 @@
 - Use the "function" keyword for pure functions.
 - Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements.
 - Use declarative JSX.
+
+## Design System
+
+- Use theme tokens only; avoid hex values. Prefer bg-primary , text-primary , bg-secondary , text-secondary-foreground , text-neutral-900 , border-neutral-200 , placeholder-neutral-400 .
+- Standardize radius. Prefer rounded-md , rounded-lg , rounded-xl ; avoid arbitrary values unless required by spec.
+- Typography: default font-sans ; headings use font-heading . Use Tailwind size utilities ( text-sm … text-5xl ) and semantic weights ( font-medium , font-bold ).
+- Spacing: use Tailwind spacing utilities ( p-_ , m-_ , gap-\* ). Avoid arbitrary pixel classes unless matching a strict spec.
+
+## Token Lookup
+
+- Source of tokens: src/styles/theme.css (loaded via src/index.css ).
+
+- Utility-to-token mapping examples:
+- bg-primary → var(--color-primary)
+- text-secondary-foreground → var(--color-secondary-foreground)
+- text-neutral-900 → var(--color-neutral-900)
+- border-neutral-200 → var(--color-neutral-200)
+- placeholder-neutral-400 → var(--color-neutral-400)
+- If a utility doesn’t exist for a custom token, use bg-[var(--color-your-token)] or text-[var(--color-your-token)]

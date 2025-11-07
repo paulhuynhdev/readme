@@ -1,7 +1,21 @@
-import Home from './components/pages/Home'
+import { Routes, Route } from 'react-router-dom'
+import MainLayout from '@templates/MainLayout'
+import Home from '@pages/Home'
+import About from '@pages/About'
+import NotFound from '@pages/NotFound'
+import Login from '@pages/Login'
 
 function App() {
-  return <Home />
+  return (
+    <Routes>
+      <Route element={<MainLayout />}>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='*' element={<NotFound />} />
+      </Route>
+    </Routes>
+  )
 }
 
 export default App
