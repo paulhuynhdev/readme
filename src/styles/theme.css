@@ -22,7 +22,7 @@
   --text-lg: 18px;
   --text-xl: 20px;
   --text-2xl: 24px;
-  --text-3xl: 32px;
+  --text-3xl: 28px;
   --text-4xl: 40px;
   --text-5xl: 48px;
 
@@ -33,6 +33,9 @@
   --weight-bold: 700;
 
   --color-white: #ffffff;
+  --color-gray-100: #eaeaf0;
+  --color-gray-200: #e2e0e5;
+  --color-gray-300: #d0d0dd;
   --color-black: #101828;
   --color-neutral-25: #fcfcfd;
   --color-neutral-50: #f9fafb;

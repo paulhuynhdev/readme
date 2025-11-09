@@ -13,6 +13,7 @@ export default defineConfig({
       '@organisms': '/src/components/organisms',
       '@templates': '/src/components/templates',
       '@pages': '/src/components/pages',
+      '@lib': '/src/lib',
       '@styles': '/src/styles',
     },
   },

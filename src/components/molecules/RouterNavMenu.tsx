@@ -22,7 +22,7 @@ export default function RouterNavMenu() {
       <a href='#' className={`${base} ${inactive}`}>
         Blog
       </a>
-      <a href='#' className={`${base} ${inactive}`}>
+      <a href='/teachers' className={`${base} ${inactive}`}>
         Teachers
       </a>
       <NavLink

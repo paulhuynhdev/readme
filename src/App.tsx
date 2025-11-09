@@ -6,6 +6,7 @@ import NotFound from '@pages/NotFound'
 import Login from '@pages/Login'
 import SignUp from '@pages/Signup'
 import Contact from '@pages/Contact'
+import Teacher from '@pages/Teacher'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/signup' element={<SignUp />} />
+        <Route path='/teachers' element={<Teacher />} />
         <Route path='*' element={<NotFound />} />
       </Route>
     </Routes>
