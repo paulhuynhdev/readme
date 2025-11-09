@@ -4,7 +4,7 @@ import InnerHero from '@organisms/InnerHero'
 export default function SignUp() {
   return (
     <div className='bg-white'>
-      <InnerHero />
+      <InnerHero title={''} description={''} />
       <SignUpCard />
     </div>
   )
