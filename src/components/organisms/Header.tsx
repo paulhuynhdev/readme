@@ -1,6 +1,7 @@
 import Logo from '@atoms/Logo'
 import RouterNavMenu from '@molecules/RouterNavMenu'
 import AuthButtons from '@molecules/AuthButtons'
+import MobileNavMenu from '@molecules/MobileNavMenu'
 
 const Header = () => {
   return (
@@ -9,7 +10,12 @@ const Header = () => {
         <div className='flex justify-between items-center py-4 sm:py-6 md:py-8 gap-4 sm:gap-8 md:gap-8 lg:gap-[100px] flex-nowrap'>
           <Logo />
           <RouterNavMenu />
-          <AuthButtons />
+          <div className='hidden md:flex items-center gap-8'>
+            <AuthButtons />
+          </div>
+          <div className='md:hidden'>
+            <MobileNavMenu />
+          </div>
         </div>
       </div>
     </header>
