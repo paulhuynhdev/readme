@@ -1,13 +1,16 @@
-import ContactHero from '@organisms/ContactHero'
+import InnerHero from '@organisms/InnerHero'
 import ContactBody from '@organisms/ContactBody'
-import ContactFaq from '@organisms/ContactFaq'
+import Faq from '@organisms/Faq'
 
 export default function Contact() {
   return (
     <div className='bg-white'>
-      <ContactHero />
+      <InnerHero
+        title="Contact Us"
+        description="We're here to help. Get in touch with our team."
+      />
       <ContactBody />
-      <ContactFaq />
+      <Faq />
     </div>
   )
 }
